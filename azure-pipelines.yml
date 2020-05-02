@@ -5,6 +5,11 @@
 pool:
   vmImage: 'Ubuntu 16.04'
 
+# define variables to use during the build
+variables:
+  projectFolder: ''
+  buildOutputFolder: '/build'
+
 # define the steps of the build
 steps:
 
