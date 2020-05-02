@@ -7,8 +7,8 @@ pool:
 
 # define variables to use during the build
 variables:
-  projectFolder: 'react-todo-list/src'
-  buildOutputFolder: 'react-todo-list/build'
+  projectFolder: '/src'
+  buildOutputFolder: '/build'
 
 # define the steps of the build
 steps:
