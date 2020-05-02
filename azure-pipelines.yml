@@ -5,11 +5,6 @@
 pool:
   vmImage: 'Ubuntu 16.04'
 
-# define variables to use during the build
-variables:
-  projectFolder: '/react-todo-list'
-  buildOutputFolder: '/react-todo-list/build'
-
 # define the steps of the build
 steps:
 
