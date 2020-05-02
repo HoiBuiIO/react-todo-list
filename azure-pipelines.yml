@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  uiSource: '/scr'
+  uiSource: 'scr'
   uiBuild: '$(uiSource)/build'
 
 steps:
